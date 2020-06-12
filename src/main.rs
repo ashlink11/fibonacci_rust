@@ -1,8 +1,6 @@
 /*
-Convert temperatures between Fahrenheit and Celsius.
 Generate the nth Fibonacci number.
-Print the lyrics to the Christmas carol “The Twelve Days of Christmas,” 
-taking advantage of the repetition in the song.
+Convert temperatures between Fahrenheit and Celsius.
 */
 fn main() {
     println!("Hello, world!");
@@ -14,6 +12,7 @@ fn main() {
     println!("Fib 6 is {}", fibonacci(6));
     println!("Fib 7 is {}", fibonacci(7));    
     println!("37 celsius is {} F", c_to_f(37.0));    
+    println!("98.6 F is {} celsius", f_to_c(98.6));    
     println!("98.6 F is {} celsius", f_to_c(98.6));    
 }
 
